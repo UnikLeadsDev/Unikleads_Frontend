@@ -1,0 +1,74 @@
+name: loan_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^10.2.4
+  image_picker: ^1.1.2
+  flutter_svg: ^2.2.0
+  google_fonts: ^6.3.0
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+  lottie: ^3.3.1
+  flutter_screenutil: ^5.9.3
+  dotted_border: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+        - assets/
+      
+        - assets/header_bg1.png
+        - assets/unic_leads.png
+        - assets/medal.svg
+        - assets/filter.png
+        - assets/star.svg
+        - assets/sync.svg
+        - assets/notification.png
+        - assets/animation/support.json
+        - assets/animation/call.json
+        - assets/location.svg
+        - assets/whatsapp.svg
+        - assets/live.svg
+        - assets/mail.svg
+        - assets/paid.svg
+        - assets/pending.svg
+        - assets/Unik_leads.jpg
+        - assets/My_partners.svg
+        - assets/share.svg
+        - assets/copy.svg
+        - assets/rupee.svg
+        - assets/term.svg
+        - assets/referred.svg
+        - assets/download.svg
+        - assets/badge.svg
+        - assets/new_user.svg
+        - assets/reward_points.svg
+        - assets/app_logo.png
+        - assets/animation/sharee.json
+        - assets/faq.svg
+        - assets/india.png
+        - assets/channel.svg
+        - assets/animation/Icon_Animation_2.json
+
+
+  
+
