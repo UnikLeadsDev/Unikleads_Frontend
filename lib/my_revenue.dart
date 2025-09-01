@@ -246,7 +246,7 @@ class RevenueScreen extends StatelessWidget {
             Column(
               children: const [
                 CardItem("My Sales Earning", "₹ 600"),
-                CardItem("Finovel App Referral Earning", "₹ 750"),
+                CardItem("App Referral Earning", "₹ 750"),
                 CardItem("Channel Partner Referral Earning", "₹ 64"),
                 CardItem("Other Earnings", "₹ 512"),
               ],

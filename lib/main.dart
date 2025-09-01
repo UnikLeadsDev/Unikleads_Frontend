@@ -16,6 +16,11 @@ import 'package:loan_application/co_applicant_basic_details.dart';
 import 'package:loan_application/co_applicant_kyc.dart';
 import 'package:loan_application/complete_preview.dart';
 import 'package:loan_application/document_signing.dart';
+import 'package:loan_application/edge_cases/404_error.dart';
+import 'package:loan_application/edge_cases/coming_soon.dart';
+import 'package:loan_application/edge_cases/connection_lost.dart';
+import 'package:loan_application/edge_cases/something_wrong.dart';
+import 'package:loan_application/edge_cases/under_maintenance.dart';
 import 'package:loan_application/faq.dart';
 import 'package:loan_application/filter.dart';
 import 'package:loan_application/guarantor1_kyc.dart';
@@ -91,7 +96,7 @@ class LoanApplicationApp extends StatelessWidget {
               //MainDashboardScreen(),
               // RevenueScreen(),
               // ProfileScreen(),
-             LoginScreen(),
+             //LoginScreen(),
               // OtpVerificationScreen(),
               // ReferralProgramScreen(),
               // ReferralSteps(),
@@ -101,6 +106,13 @@ class LoanApplicationApp extends StatelessWidget {
               //ReferenceDetailsScreen(),
               //LoanOptionsScreen(),
               //FAQScreen(),
+             ErrorPage(),
+            //ConnectionLostPage(),
+            //MaintenancePage(),
+            //SomethingWentWrongPage(),
+            //ComingSoonPage(),
+            //ErrorPage(),
+
         );
       },
     );

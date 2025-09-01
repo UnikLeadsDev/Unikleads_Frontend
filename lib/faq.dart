@@ -18,7 +18,7 @@ class FAQScreen extends StatelessWidget {
           'Is there a minimum earnings amount required to get the payment?',
       'answer': ''
     },
-    {'question': 'How do I withdraw my Finovel earnings?', 'answer': ''},
+    {'question': 'How do I withdraw my earnings?', 'answer': ''},
   ];
 
   @override
